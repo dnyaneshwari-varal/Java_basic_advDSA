@@ -1,3 +1,4 @@
+package Basic_Code;
 public class Palindrome {
 
     public int checkPalindrome(int x){

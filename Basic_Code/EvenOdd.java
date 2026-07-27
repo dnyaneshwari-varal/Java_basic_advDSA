@@ -1,4 +1,4 @@
-
+package Basic_Code;
 import java.util.*;
 public class EvenOdd{
     public int evenOdd(int x){

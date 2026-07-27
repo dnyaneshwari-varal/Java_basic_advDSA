@@ -1,3 +1,4 @@
+package Basic_Code;
 public class ReverseNumber {
     public int reverseNum(int num){
         int temp=0;

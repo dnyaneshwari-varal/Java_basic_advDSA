@@ -1,4 +1,4 @@
-
+package Basic_Code;
 import java.util.Scanner;
 
 public class checkPosNeg{
