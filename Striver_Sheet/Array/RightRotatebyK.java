@@ -1,6 +1,6 @@
 package Striver_Sheet.Array;
 
-public class LeftRotateByK {
+public class RightRotatebyK {
 	
 	public static void reverse(int[] arr,int start,int end) {
 		while(start<end) {
@@ -25,11 +25,12 @@ public class LeftRotateByK {
 						System.out.print(arr[i]+" ");
 		}
 		System.out.println();
+		
+		reverse(arr,0,arr.length-1);
 		reverse(arr,0,k-1);
 		reverse(arr,k,arr.length-1);
-		reverse(arr,0,arr.length-1);
 		
-		System.out.println("rotated to left by K="+k);
+		System.out.println("rotated to right by K="+k);
 		
 		for(int i=0;i<arr.length;i++) {
 			
